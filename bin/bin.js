@@ -7,7 +7,7 @@ const { recommit } = require('../lib/recommit');
 function exec(argv) {
   program
     .version(version)
-    .usage('recommit <commit-hash|author-name|author-email> [options]')
+    .usage('<commit-hash|author-name|author-email> [options]')
     // .option('-m, --message [msg]', '')
     .option('-d, --date [date]', 'modify the date, eg: "2019-12-12 12:32:50"')
     .option('-a, --author [author]', 'modify the author, eg: "Jack <jack@email.com>"')

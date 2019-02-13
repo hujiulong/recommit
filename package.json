@@ -1,7 +1,7 @@
 {
   "name": "recommit",
   "version": "0.0.0-alpha",
-  "description": "Edit git commits data.",
+  "description": "Modify your git commit information.",
   "bin": {
     "recommit": "bin/bin.js"
   },
