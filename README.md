@@ -1,6 +1,11 @@
 # recommit
 Modify your git commit information.
 
+## Install
+```bash
+npm install -g recommit
+```
+
 ## Usage
 ```
 recommit <commit-hash|author-name|author-email> [options]
