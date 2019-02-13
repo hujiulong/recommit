@@ -16,7 +16,8 @@ function exec(argv) {
     .option('--author-email [email]', 'modify the author email, eg: "jack@email.com"')
     .option('--author-date [date]', 'modify the author date, eg: "2019-12-12 12:32:50"')
     .option('--committer-name [name]', 'modify the committer name, eg: "Jack"')
-    .option('--committer-date [date]', 'modify the committer name, eg: "jack@email.com"')
+    .option('--committer-email [email]', 'modify the committer email, eg: "jack@email.com"')
+    .option('--committer-date [date]', 'modify the committer date, eg: "2019-12-12 12:32:50"')
     .parse(argv);
 
   const args = program.args;

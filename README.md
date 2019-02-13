@@ -14,7 +14,8 @@ Options:
   --author-email [email]      modify the author email, eg: "jack@email.com"
   --author-date [date]        modify the author date, eg: "2019-12-12 12:32:50"
   --committer-name [name]     modify the committer name, eg: "Jack"
-  --committer-date [date]     modify the committer name, eg: "jack@email.com"
+  --committer-email [email]   modify the committer email, eg: "jack@email.com"
+  --committer-date [date]     modify the author date, eg: "2019-12-12 12:32:50"
   -h, --help                  output usage information
 ```
 
