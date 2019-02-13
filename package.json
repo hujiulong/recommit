@@ -3,9 +3,12 @@
   "version": "0.0.0-alpha",
   "description": "Edit git commits data.",
   "bin": {
-    "recommit": "bin/recommit.js"
+    "recommit": "bin/bin.js"
   },
-  "scripts": {},
+  "main": "lib/recommit.js",
+  "scripts": {
+    "lint": "eslint bin/ lib/"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/hujiulong/recommit.git"
@@ -21,7 +24,9 @@
   "homepage": "https://github.com/hujiulong/recommit#readme",
   "dependencies": {
     "commander": "^2.19.0",
-    "moment": "^2.24.0"
+    "moment": "^2.24.0",
+    "outdent": "^0.7.0",
+    "shelljs": "^0.8.3"
   },
   "devDependencies": {
     "@hujiulong/eslint-config": "^0.0.6",
